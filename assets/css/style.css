@@ -1,9 +1,120 @@
 /*--Fonts--*/
+
+h1,
+p {
+    font-family: Calibri, Helvetica, sans-serif
+}
+
 /*--Landing fonts/images--*/
+
+body {
+    margin: 0;
+}
+
+.text {
+    color: #fff;
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 0px;
+    display: inline;
+}
+
+.subtext {
+    color: #fff;
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 40px;
+    font-weight: 900;
+}
+
+#logo {
+    padding-top: 30px;
+    width: 235px;
+    height: 117px;
+    margin-right: 20px;
+
+}
+
 /*--Sections--*/
+
+header {
+    background-attachment: fixed;
+    background-image: url("../../assets/images/landing.jpg");
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+
 /*--Navigation--*
 /*--Cards--*/
+
 /*--Transitions--*/
+
 /*--Footer--*/
+
 /*--Footer Socials--*/
+
 /*--Media Queries--*/
+
+@media only screen and (max-width: 599px) {
+    .text {
+        text-align: center;
+        font-size: 2rem;
+        padding: 0;
+    }
+    .subtext {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0;
+        font-weight: normal;
+    }
+
+    #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (max-width: 799px) {
+    .text {
+        text-align: center;
+        padding: 0;
+    }
+    .subtext {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .text {
+        text-align: center;
+        padding: 0;
+        font-size: 2.4rem;
+    }
+    .subtext {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .text {
+        text-align: center;
+        padding: 0;
+    }
+    .subtext {
+        text-align: center;
+        padding: 0;
+    }
+}
