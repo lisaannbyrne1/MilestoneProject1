@@ -1,8 +1,15 @@
 /*--Fonts--*/
 
-h1,
-p {
-    font-family: Calibri, Helvetica, sans-serif color: rgba(0, 0, 0, .5);
+.section-title {
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+p, h3 {
+    font-family: Calibri, Helvetica, sans-serif;
+    color: rgba(0 0 0 .5);
 }
 
 /*--Landing fonts/images--*/
@@ -10,6 +17,7 @@ p {
 body {
     margin: 0;
 }
+
 
 .text {
     color: #fff;
@@ -91,67 +99,70 @@ li a:hover {
 
 /*--Sections--*/
 
-.about {
+#about {
     background-attachment: fixed;
     background-image: url("../../assets/images/about.JPG");
     background-position: bottom;
     background-size: cover;
-    text-align: center;
     margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100vh;
-    width: 100vw;
     z-index: 1;
-
 }
 
-.programmes {
+#programmes {
     background-attachment: fixed;
     background-image: url("../../assets/images/programmes.jpg");
     background-position: bottom;
     background-size: cover;
-    text-align: center;
     margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100vh;
-    width: 100vw;
     z-index: 1;
-
 }
 
-
-.news {
+#news {
     background-attachment: fixed;
-    background-image: url("../../assets/images/news.JPG");
+    background-image: url("../../assets//images/news.JPG");
     background-position: bottom;
     background-size: cover;
-    text-align: center;
     margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100vh;
-    width: 100vw;
     z-index: 1;
-
 }
 
-
-.training {
+#training {
     background-attachment: fixed;
     background-image: url("../../assets/images/train.jpg");
     background-position: bottom;
     background-size: cover;
-    text-align: center;
     margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100vh;
-    width: 100vw;
     z-index: 1;
-
 }
+
 
 /*--Cards--*/
 
+.ahi-cards {
+    display: grid;
+    grid-template-rows: none|auto|max-content|min-content|length|initial|inherit;
+    padding: 20px 20px 20px 20px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    
+}
+
+
 /*--Transitions--*/
+
+.card {
+    transform: translateZ(0px);
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
 
 /*--Footer--*/
 
@@ -182,7 +193,6 @@ a {
 
 .button {
     background-color: #4CAF50;
-    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -194,6 +204,9 @@ a {
     cursor: pointer;
 }
 
+a.button {
+text-decoration: none;
+}
 
 /*--Footer Socials--*/
 
