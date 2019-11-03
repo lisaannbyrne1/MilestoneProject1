@@ -166,24 +166,29 @@ li a:hover {
 
 /*--Footer--*/
 
-* {
-    box-sizing: border-box;
-}
-
-.col-container {
-    display: flex;
-    float: center;
+.container-fluid {
+    padding-top: 20px;
+    background-color: #f8f9fa;
     width: 100%;
-
 }
 
-.col {
-    flex: 1;
-    padding: 5px;
-    background-color: #f2f2f2;
-    text-align: center;
-    color: rgba(0, 0, 0, .5);
+#footerlogo {
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 60px;
 }
+
+.btn-secondary {
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+    }
+
 
 a {
     text-decoration: none;
@@ -245,147 +250,6 @@ text-decoration: none;
 }
 
 
+
 /*--Media Queries--*/
 
-/*--Smartphone (portrait & landscape)--*/
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .text {
-        text-align: center;
-        font-size: 2rem;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        font-size: 1rem;
-        padding: 0;
-        font-weight: normal;
-    }
-
-    #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
-
-/*--Smartphone (landscape)--*/
-
-@media only screen and (min-width: 321px) {
-    .text {
-        text-align: center;
-        font-size: 2rem;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        font-size: 1rem;
-        padding: 0;
-        font-weight: normal;
-    }
-
-    #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-/*--Smartphone (portrait)--*/
-
-@media only screen and (max-width: 320px) {
-    .text {
-        text-align: center;
-        font-size: 2rem;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        font-size: 1rem;
-        padding: 0;
-        font-weight: normal;
-    }
-
-    #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-/*--iPads (portrait & landscape)--*/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .text {
-        text-align: center;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        padding: 0;
-
-    }
-}
-
-
-/*--iPads (landscape)--*/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .text {
-        text-align: center;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        padding: 0;
-    }
-}
-
-/*--iPads (portrait)--*/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .text {
-        text-align: center;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        padding: 0;
-    }
-}
-
-/*--Desktops & laptops--
-
-@media only screen and (max-width : 1224px) {
-{
-*/
-
-/*--Large Screens--
-
-@media only screen and (max-width : 1824px) {
-{
-*/
-
-/*--iPhone 4--*/
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    .text {
-        text-align: center;
-        font-size: 2rem;
-        padding: 0;
-    }
-    .subtext {
-        text-align: center;
-        font-size: 1rem;
-        padding: 0;
-        font-weight: normal;
-    }
-
-    #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
