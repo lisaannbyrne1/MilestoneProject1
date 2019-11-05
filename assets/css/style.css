@@ -1,15 +1,18 @@
 /*--Fonts--*/
 
-p,h3,h5 {
-    font-family: Calibri, Helvetica, sans-serif;
+h3,
+h5,
+p {
     color: #676464;
+    font-family: Calibri, Helvetica, sans-serif;
 }
 
 .section-title {
-    font-family: Calibri, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
+    font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -20,41 +23,40 @@ body {
 }
 
 .headtext {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 4rem;
     font-weight: 900;
-    align-items: center;
-    padding-top: 300px;
 }
 
 .subtext {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: 900;
-    align-items: center;
-}
-
-#logo {
-    padding-top: 30px;
-   /*- width: 255px;
-    height: 150px;-*/
-    margin-right: 20px;
 }
 
 /*--Sections--*/
 
-header {
+.header {
     background-attachment: fixed;
-    background-image: url("../images/programmes-min.jpg");
+    background-image: url("../images/landing-min.jpg");
     background-position: bottom;
     background-size: cover;
-    text-align: center;
-    margin-bottom: 0px;
     height: 100vh;
+    text-align: center;
     width: 100%;
     z-index: 1;
+}
+
+.maintext {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
@@ -62,21 +64,20 @@ header {
 
 .navbar {
     position: -webkit-sticky;
-    position: sticky;
+    top: 0;
     width: 100%;
     z-index: 1000000;
-    top: 0;
 }
 
 .bg-light {
-    background-color: white !important;
+    background-color: #ffffff !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 20px;
     padding left: 4rem;
     padding-right: 4rem;
-    font-size: 20px;
-    font-family: Calibri, Helvetica, sans-serif;
 }
 
 /*--Sections--*/
@@ -92,7 +93,7 @@ header {
 
 #programmes {
     background-attachment: fixed;
-    background-image: url("../../assets/images/landing-min.jpg");
+    background-image: url("../../assets/images/prog-min.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -148,8 +149,8 @@ header {
 /*--Footer--*/
 
 .container-fluid {
-    padding-top: 20px;
     background-color: #fff;
+    padding-top: 20px;
     width: 100%;
 }
 
@@ -159,9 +160,9 @@ header {
 }
 
 .btn-secondary {
-    width: 50%;
-    margin-top: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50%;
 }
 
 #footer {
@@ -170,22 +171,22 @@ header {
 }
 
 a {
-    text-decoration: none;
     color: #000;
     color: rgba(0, 0, 0, .5);
+     text-decoration: none;
 }
 
 .button {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+    cursor: pointer;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
 }
 
 a.button {
@@ -200,12 +201,12 @@ a.button {
 /*--Footer Socials--*/
 
 .fa {
-    padding: 10px;
+    border-radius: 50%;
     font-size: 17px;
-    width: 40px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    width: 40px;
 }
 
 .fa:hover {
@@ -236,7 +237,3 @@ a.button {
 
 
 /*--Media Queries--*/
-
-@media only screen and (max-width: 375px) {
-
-}
