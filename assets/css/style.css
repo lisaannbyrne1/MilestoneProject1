@@ -49,13 +49,13 @@ body {
 
 header {
     background-attachment: fixed;
-    background-image: url("../../assets/images/landing.jpg");
+    background-image: url("../images/landing-min.jpg");
     background-position: bottom;
     background-size: cover;
     text-align: center;
     margin-bottom: 0px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
 
 }
@@ -63,45 +63,35 @@ header {
 
 /*--Navigation--*/
 
-.ahinav {
+.navbar {
     background-color: #fff;
-    padding: 0.5rem 1rem 0.5rem 1rem;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
     z-index: 1000000;
     top: 0;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transarent;
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding left: 4rem;
+    padding-right: 4rem;
+    font-size: 20px;
+    
 }
 
-li a {
-    display: block;
-    color: rgba(0, 0, 0, .5);
-    text-align: center;
-    padding: 8px 8px;
-    text-decoration: none;
-    float: left;
+.navbar.compressed {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #6dcc7c;
+  color: #6dcc7c;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
-
-li a:hover {
-    color: #A9A9A9;
-    text-decoration: none;
-}
-
-
 
 /*--Sections--*/
 
 #about {
     background-attachment: fixed;
-    background-image: url("../../assets/images/about.JPG");
+  /*  background-image: url("../../assets/images/about.JPG"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -110,7 +100,7 @@ li a:hover {
 
 #programmes {
     background-attachment: fixed;
-    background-image: url("../../assets/images/programmes.jpg");
+   /*  background-image: url("../../assets/images/programmes.jpg"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -119,7 +109,7 @@ li a:hover {
 
 #news {
     background-attachment: fixed;
-    background-image: url("../../assets//images/news.JPG");
+   /*  background-image: url("../../assets//images/news.JPG"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -128,7 +118,7 @@ li a:hover {
 
 #training {
     background-attachment: fixed;
-    background-image: url("../../assets/images/train.jpg");
+  /*  background-image: url("../../assets/images/train.jpg"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -175,7 +165,7 @@ li a:hover {
 #footerlogo {
     display: block;
     width: 50%;
-    height: 70%;
+    height: auto;
     margin-top: 20px;
     margin-left: 60px;
 }
@@ -253,3 +243,8 @@ text-decoration: none;
 
 /*--Media Queries--*/
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
