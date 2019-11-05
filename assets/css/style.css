@@ -7,7 +7,8 @@
     text-align: left;
 }
 
-p, h3 {
+p,
+h3 {
     font-family: Calibri, Helvetica, sans-serif;
     color: rgba(0 0 0 .5);
 }
@@ -19,22 +20,21 @@ body {
 }
 
 
-.text {
+.headtext {
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
-    margin-top: 0px;
-    display: inline;
+    font-size: 4rem;
+    font-weight: 500;
+    align-items: center;
+    padding-top: 200px;
 }
 
 .subtext {
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 1.2rem;
-    text-align: center;
-    padding-left: 40px;
     font-weight: 900;
+    align-items: center;
 }
 
 #logo {
@@ -64,34 +64,28 @@ header {
 /*--Navigation--*/
 
 .navbar {
-    background-color: #fff;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
     z-index: 1000000;
     top: 0;
 }
-  
+
+.bg-light {
+    background-color: white !important;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding left: 4rem;
     padding-right: 4rem;
     font-size: 20px;
-    
-}
-
-.navbar.compressed {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: #6dcc7c;
-  color: #6dcc7c;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 /*--Sections--*/
 
 #about {
     background-attachment: fixed;
-  /*  background-image: url("../../assets/images/about.JPG"); */
+    /*  background-image: url("../../assets/images/about.JPG"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -100,7 +94,7 @@ header {
 
 #programmes {
     background-attachment: fixed;
-   /*  background-image: url("../../assets/images/programmes.jpg"); */
+    /*  background-image: url("../../assets/images/programmes.jpg"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -109,7 +103,7 @@ header {
 
 #news {
     background-attachment: fixed;
-   /*  background-image: url("../../assets//images/news.JPG"); */
+    /*  background-image: url("../../assets//images/news.JPG"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -118,7 +112,7 @@ header {
 
 #training {
     background-attachment: fixed;
-  /*  background-image: url("../../assets/images/train.jpg"); */
+    /*  background-image: url("../../assets/images/train.jpg"); */
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -137,7 +131,7 @@ header {
 .card-body {
     flex: 1 1 auto;
     padding: 1.25rem;
-    
+
 }
 
 
@@ -177,7 +171,7 @@ header {
     margin-bottom: 20px;
     margin-left: 50px;
 
-    }
+}
 
 
 a {
@@ -200,7 +194,7 @@ a {
 }
 
 a.button {
-text-decoration: none;
+    text-decoration: none;
 }
 
 /*--Footer Socials--*/
@@ -244,7 +238,7 @@ text-decoration: none;
 /*--Media Queries--*/
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+    body {
+        background-color: lightblue;
+    }
 }
