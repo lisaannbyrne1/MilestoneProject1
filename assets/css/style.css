@@ -85,7 +85,7 @@ header {
 
 #about {
     background-attachment: fixed;
-    /*  background-image: url("../../assets/images/about.JPG"); */
+    background-image: url("../../assets/images/about-min.JPG");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -94,7 +94,7 @@ header {
 
 #programmes {
     background-attachment: fixed;
-    /*  background-image: url("../../assets/images/programmes.jpg"); */
+    background-image: url("../../assets/images/programmes-min.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -103,7 +103,7 @@ header {
 
 #news {
     background-attachment: fixed;
-    /*  background-image: url("../../assets//images/news.JPG"); */
+    background-image: url("../../assets//images/news-min.JPG");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -112,7 +112,7 @@ header {
 
 #training {
     background-attachment: fixed;
-    /*  background-image: url("../../assets/images/train.jpg"); */
+    background-image: url("../../assets/images/training-min.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
