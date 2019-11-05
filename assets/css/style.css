@@ -1,5 +1,10 @@
 /*--Fonts--*/
 
+p,h3,h5 {
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #676464;
+}
+
 .section-title {
     font-family: Calibri, Helvetica, sans-serif;
     color: #fff;
@@ -7,11 +12,6 @@
     text-align: left;
 }
 
-p,
-h3 {
-    font-family: Calibri, Helvetica, sans-serif;
-    color: rgba(0 0 0 .5);
-}
 
 /*--Landing fonts/images--*/
 
@@ -19,14 +19,13 @@ body {
     margin: 0;
 }
 
-
 .headtext {
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 900;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 .subtext {
@@ -39,17 +38,16 @@ body {
 
 #logo {
     padding-top: 30px;
-    width: 255px;
-    height: 150px;
+   /*- width: 255px;
+    height: 150px;-*/
     margin-right: 20px;
-
 }
 
 /*--Sections--*/
 
 header {
     background-attachment: fixed;
-    background-image: url("../images/landing-min.jpg");
+    background-image: url("../images/programmes-min.jpg");
     background-position: bottom;
     background-size: cover;
     text-align: center;
@@ -57,7 +55,6 @@ header {
     height: 100vh;
     width: 100%;
     z-index: 1;
-
 }
 
 
@@ -79,6 +76,7 @@ header {
     padding left: 4rem;
     padding-right: 4rem;
     font-size: 20px;
+    font-family: Calibri, Helvetica, sans-serif;
 }
 
 /*--Sections--*/
@@ -94,7 +92,7 @@ header {
 
 #programmes {
     background-attachment: fixed;
-    background-image: url("../../assets/images/programmes-min.jpg");
+    background-image: url("../../assets/images/landing-min.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
@@ -131,7 +129,6 @@ header {
 .card-body {
     flex: 1 1 auto;
     padding: 1.25rem;
-
 }
 
 
@@ -152,27 +149,25 @@ header {
 
 .container-fluid {
     padding-top: 20px;
-    background-color: #f8f9fa;
+    background-color: #fff;
     width: 100%;
 }
 
-#footerlogo {
-    display: block;
-    width: 50%;
-    height: auto;
-    margin-top: 20px;
-    margin-left: 60px;
+.col-sm-4 {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .btn-secondary {
-    display: block;
     width: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+#footer {
+    color: #676464;
+    font-family: Calibri, Helvetica, sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -197,20 +192,25 @@ a.button {
     text-decoration: none;
 }
 
+.footer-social-icons {
+    padding-top: 20px;
+}
+
+
 /*--Footer Socials--*/
 
 .fa {
     padding: 10px;
-    font-size: 15px;
-    width: 30px;
+    font-size: 17px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
     border-radius: 50%;
 }
 
 .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
 }
 
 .fa-facebook {
@@ -237,8 +237,6 @@ a.button {
 
 /*--Media Queries--*/
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
+@media only screen and (max-width: 375px) {
+
 }
