@@ -8,10 +8,9 @@ p {
 }
 
 .section-title {
-    background: rgba(255, 255, 255, 1);
-    color: #676464;
+    color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -24,7 +23,6 @@ body {
 
 .headtext {
     align-content: center;
-    background: rgba(255, 255, 255, 0.2);
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 4rem;
@@ -33,14 +31,13 @@ body {
 
 .subtext {
     align-content: center;
-    background: rgba(255, 255, 255, 0.2);
     color: #fff;
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: 900;
 }
 
-/*--Sections--*/
+/*--header--*/
 
 .header {
     background-attachment: fixed;
@@ -51,7 +48,19 @@ body {
     text-align: center;
     width: 100%;
     z-index: 1;
+    position: relative;
 }
+
+.header::before {
+    background: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
 
 .maintext {
     position: relative;
@@ -69,16 +78,19 @@ body {
     width: 100%;
     z-index: 1000000;
 }
-
 .bg-light {
     background-color: #ffffff !important;
 }
 
+
 .navbar-expand-lg .navbar-nav .nav-link {
     font-family: Calibri, Helvetica, sans-serif;
     font-size: 20px;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 0 1rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 /*--Sections--*/
@@ -90,7 +102,10 @@ body {
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.3);
 }
+
 
 #programmes {
     background-attachment: fixed;
@@ -99,6 +114,8 @@ body {
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.3);
 }
 
 #news {
@@ -108,6 +125,8 @@ body {
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.3);
 }
 
 #training {
@@ -117,6 +136,8 @@ body {
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.3);
 }
 
 
@@ -124,7 +145,6 @@ body {
 
 .ahi-cards {
     display: grid;
-    grid-template-rows: none|auto|max-content|min-content|length|initial|inherit;
     padding: 20px 20px 20px 20px;
 }
 
@@ -166,7 +186,7 @@ body {
     width: 50%;
 }
 
-#footer {
+.footer {
     color: #676464;
     font-family: Calibri, Helvetica, sans-serif;
 }
@@ -196,6 +216,12 @@ a.button {
 
 .footer-social-icons {
     padding-top: 20px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 
