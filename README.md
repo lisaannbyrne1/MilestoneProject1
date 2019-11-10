@@ -6,6 +6,8 @@ This is a website redesign is to present to my current employer, Animal Health I
 The website must be user-friendly for all its users which includes staff, stakeholders, industry representatives and the general public. Additional feedback from the company is that the current website is text-heavy, and they would like to see more images through. 
 
 ## Demo
+A live demo can be found here<a href=" https://lisaannbyrne1.github.io/MilestoneProject1/">here </a>
+
 
 ## UX
 
