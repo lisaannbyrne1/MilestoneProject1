@@ -52,7 +52,7 @@ The contact us links and email address will open a new email with the subject pr
 
 All external links have been tested to ensure they open to the correct destination and all links will open in a new tab using 'target="_blank"'.
 
-The site has been tested across multiple various internet browsers including Firefox, Microsoft Edge, Chrome, Silk and Safari.  It has also been testing for compatibility and responsiveness on mobile devices. During testing I found that the css property background-blend-mode: darken is not currently supported by Microsoft Edge. I decided not to change the current code as it did not effect the overall look of my website. I also found during testing that some of the background images I am using displayed blurry on IOS. On research I found that Safari/IOS have limitationa displaying larger PGN and GIF images.  
+The site has been tested across multiple various internet browsers including Firefox, Microsoft Edge, Chrome, Silk and Safari.  It has also been testing for compatibility and responsiveness on mobile devices. During testing I found that the css property background-blend-mode: darken is not currently supported by Microsoft Edge. I decided not to change the current code as it did not effect the overall look of my website. I also found during testing that some of the background images I am using displayed blurry on IOS. On research I found that Safari/IOS have limitationa displaying larger PGN and GIF images. I found by removing backgound-attachement: fixed; the issue was resolved.   
 
 ## Deployment
 This site is hosted on GitHub pages and was deployed directly from the master branch and the live site updates automatically when new changes are pushed to the repository.

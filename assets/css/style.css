@@ -78,6 +78,7 @@ body {
     width: 100%;
     z-index: 1000000;
 }
+
 .bg-light {
     background-color: #ffffff !important;
 }
@@ -96,48 +97,44 @@ body {
 /*--Sections--*/
 
 #about {
-    background-attachment: fixed;
     background-image: url("../../assets/images/about-min.JPG");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
     background-blend-mode: darken;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
 #programmes {
-    background-attachment: fixed;
     background-image: url("../../assets/images/prog-min.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
     background-blend-mode: darken;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #news {
-    background-attachment: fixed;
     background-image: url("../../assets//images/news-min.JPG");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
     background-blend-mode: darken;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #training {
-    background-attachment: fixed;
     background-image: url("../../assets/images/training-min.jpg");
     background-position: bottom;
     background-size: cover;
     margin-bottom: 0px;
     z-index: 1;
     background-blend-mode: darken;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
