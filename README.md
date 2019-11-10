@@ -6,7 +6,7 @@ This is a website redesign is to present to my current employer, Animal Health I
 The website must be user-friendly for all its users which includes staff, stakeholders, industry representatives and the general public. Additional feedback from the company is that the current website is text-heavy, and they would like to see more images through. 
 
 ## Demo
-A live demo can be found here<a href=" https://lisaannbyrne1.github.io/MilestoneProject1/">here </a>
+A live demo can be found <a href="https://lisaannbyrne1.github.io/MilestoneProject1/">here.</a>
 
 
 ## UX
@@ -14,7 +14,7 @@ A live demo can be found here<a href=" https://lisaannbyrne1.github.io/Milestone
 ### User stories
 As a staff member, I expect to be able to find essential content quickly and easily.
 
-As a member of the general public, I expect to be able to find decided content in one click.
+As a member of the general public, I expect to be able to find out who AHI are and what they do in one click or less.
 
 As a stakeholder or industry representatives, I expect to see a showcase of the programmes operated by the company.
 
@@ -52,10 +52,10 @@ The contact us links and email address will open a new email with the subject pr
 
 All external links have been tested to ensure they open to the correct destination and all links will open in a new tab using 'target="_blank"'.
 
-
+The site has been tested across multiple various internet browsers including Firefox, Microsoft Edge, Chrome, Silk and Safari.  It has also been testing for compatibility and responsiveness on mobile devices. During testing I found that the css property background-blend-mode: darken is not currently supported by Microsoft Edge. I decided not to change the current code as it did not effect the overall look of my website. I also found during testing that some of the background images I am using displayed blurry on IOS. On research I found that Safari/IOS have limitationa displaying larger PGN and GIF images.  
 
 ## Deployment
-
+This site is hosted on GitHub pages and was deployed directly from the master branch and the live site updates automatically when new changes are pushed to the repository.
 
 
 ## Credits
